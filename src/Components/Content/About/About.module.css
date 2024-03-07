@@ -1,0 +1,75 @@
+.about {
+    padding: 32px 16px;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.desc {
+    margin: 15px 0 47px;
+    padding: 0 8px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.listContact {
+    display: flex;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 24.999%;
+    padding: 0 8px 16px;
+    text-align: left;
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    p {
+        padding: 7.5px 0;
+        line-height: 1.5;
+    }
+
+    .position {
+        opacity: .6;
+    }
+
+    .btnContact {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        padding: 8px 16px;
+        border: none;
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 993px){
+    .item {
+        width: 49.9999%;
+    }
+}
+
+@media (max-width: 600px) {
+    .item {
+        width: 99.99999%;
+    }
+}

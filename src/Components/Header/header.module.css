@@ -1,0 +1,43 @@
+.header {
+    padding: 0 8px;
+    position: relative;
+}
+
+.headerImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.displayMiddle {
+    letter-spacing: 4px;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headerContent {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    b {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        background-color: #000;
+        opacity: 0.75;
+        padding: 8px 16px;
+    }
+}
+
+.formatText {
+    font-weight: 400;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .formatText {
+        display: none;
+    }
+}
+
+

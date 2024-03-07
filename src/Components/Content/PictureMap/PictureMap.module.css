@@ -1,0 +1,7 @@
+.picture {
+    padding: 0 16px;
+
+    img {
+        width: 100%;
+    }
+}

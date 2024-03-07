@@ -1,0 +1,18 @@
+.footer {
+    padding: 16px 0;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+
+    p {
+        margin: 15px 0;
+
+        a {
+            color: #fff;
+            &:hover {
+                color: #4CAF50;
+            }
+        }
+    }
+
+}
